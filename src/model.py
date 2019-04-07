@@ -26,6 +26,7 @@ class Model:
 
     def play(self):
         while not self.board.is_game_over():
+
             player_to_move = self.halfmove_number % self.num_players
             valid_move_inserted = False
 
